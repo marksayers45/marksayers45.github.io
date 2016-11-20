@@ -1,0 +1,21 @@
+# Site settings
+title: Full Stack Community Corner
+header-img: img/home-bg.png
+email: marksayers45@gmail.com
+copyright_name: marksayers45
+description: > # this means to ignore newlines until "baseurl:"
+  Full Stack Chat
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  marksayers45
+learn_profile: marksayers45
+email_username: marksayers45@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
